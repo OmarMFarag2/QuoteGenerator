@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800");
+h1,h2,h3,p,button{
+    font-family: "Poppins", sans-serif;
+}
+h1{
+    font-size: 80px;
+    font-weight: 700;
+}
+.msg{
+    color: rgb(0, 166, 255);
+}
+button{
+    background-color: rgb(0, 166, 255);
+    border-radius: 200px;
+    margin: 20px 0 ;
+    padding:15px 30px ;
+    color:white;
+    font-size: 20px;
+    transition: all 0.5s;
+    border: transparent solid 5px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.05);
+    border: 5px solid rgba(0, 166, 255, 0.567); ;
+}
